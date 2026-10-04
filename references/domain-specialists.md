@@ -13,6 +13,7 @@ Must check:
 - That charts and widgets label metrics honestly (gross vs net, with/without tax)
 - Double-entry or ledger impact if the product claims full accounting
 - Soft-delete and void rules for documents that affect balances
+- Printable invoice fields match what accounting staff expect
 
 ## Inventory specialist
 
@@ -44,6 +45,18 @@ Must check:
 - Top sellers vs top profit are both available when relevant
 - Category and barcode/SKU workflows stay simple
 - Promotions or discounts do not break margin widgets silently
+
+## Clinic / treatment specialist (optional)
+
+Activate for clinics, beauty centers, therapy, or any admission-based care product.
+
+Must check:
+- Admission number policy (e.g. starts at 1 per period/business) is clear
+- Patient search and medical history / allergy fields are not buried
+- Link between admission → services → sales documents is understandable
+- Print of admission or invoice is available when Keep includes print
+- Clinical safety catalogs (allergies, medications, interactions) stay accessible without cluttering the main path
+- Appointments and walk-in admission do not fight each other in navigation
 
 ## How specialists work with the core team
 

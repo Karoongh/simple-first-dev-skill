@@ -1,6 +1,6 @@
 # Visual Prototype Delivery
 
-Build this only after jobs, navigation intent, palette direction, and key widgets are understood.
+Build this only after jobs, navigation intent, palette direction, key widgets, and (if applicable) the Keep capability set are understood.
 Stop for user approval before production implementation.
 
 ## Goal
@@ -34,6 +34,8 @@ For a very small scope, one self-contained HTML file with embedded CSS is fine.
 - One example modal or sheet if those are part of the design
 - Theme: light and dark if the user already picked a palette; otherwise one clear theme plus optional toggle if proposing both
 - Readable RTL or LTR according to the product language
+- **Every capability marked Keep** in the Capability Inventory Gate (print, Telegram, returns, exports, login/logout, etc.) — as a visible control or clear entry point, not omitted for “simplicity”
+- Usable mobile layout (see Mobile Acceptance Gate in SKILL.md)
 
 ## Must not do in the prototype
 
@@ -41,6 +43,7 @@ For a very small scope, one self-contained HTML file with embedded CSS is fine.
 - Full business logic
 - Production folder structure mixed into the live app without a clear `prototype/` boundary
 - Empty gray boxes with no sample content
+- Desktop-only layout that collapses badly on phones
 
 ## Handoff text to the user
 
@@ -48,7 +51,7 @@ Always include:
 
 1. Where the files are
 2. How to open them (e.g. open `prototype/index.html` in a browser)
-3. What to click through (3–6 steps)
+3. What to click through (3–6 steps), including one mobile check
 4. A direct question: **Approve / Approve with tweaks / Reject**
 
 ## After approval
