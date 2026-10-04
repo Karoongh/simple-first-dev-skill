@@ -1,14 +1,17 @@
 # simple-first-dev
 
-Skill that keeps software products modern, simple, mobile-friendly, and easy to sell.
+Skill that keeps software products modern, simple, mobile-friendly, and easy to sell — without silently dropping real capabilities when redesigning an existing app.
 
 ## What it does
 
-- Forces every feature through a simplicity and mobile gate before coding
-- Uses six core agents plus on-demand domain specialists (accounting, inventory, analytics, retail)
-- Asks you to choose navigation, color palette, and Home widgets per project (no silent defaults)
-- After understanding the need, builds a **clickable visual prototype** (HTML folder or equivalent) and waits for your Approve / Tweaks / Reject before real implementation
-- Reference files are catalogs of ideas, not automatic defaults
+- **Ordered pipeline**: inventory → jobs/nav → palette → widgets → UX gate → visual prototype → mobile acceptance → production
+- **Capability Inventory Gate** on existing codebases — extract print, Telegram, export, returns, backup, etc.; multi-agent strengths/weaknesses; user Keep / Drop / Defer
+- Six core agents plus on-demand domain specialists (accounting, inventory, analytics, retail, **clinic/treatment**)
+- No silent defaults for navigation, color, or Home widgets — user chooses
+- **Clickable visual prototype** before real implementation; every Keep capability must appear in the prototype
+- Mobile Acceptance Gate (touch targets, single-column forms, card-style line items)
+- Decision log for durable choices
+- Works with `safe-multi-agent-github-dev` for safe GitHub work
 
 ## When to use
 
@@ -18,28 +21,34 @@ Say the skill name or use phrases such as:
 - product first
 - modern design
 - mobile-first
+- capability inventory
+- redesign existing app
 - widget dashboard
-- color palette / dark mode
 - visual prototype
 - personalization
 
 ## Files
 
-- `SKILL.md` — main rules
+- `SKILL.md` — main rules and ordered pipeline
+- `references/capability-inventory.md` — inventory procedure and table
+- `references/visual-prototype.md` — prototype delivery and checklist
+- `references/domain-specialists.md` — specialist agents (includes clinic/treatment)
 - `references/home-template.md` — Home + navigation ideas
 - `references/widget-system.md` — personalization mechanics
-- `references/demo-script-template.md` — short demo
 - `references/modern-ui-guidelines.md` — visual standards
 - `references/color-system.md` — example palettes to propose
 - `references/analytics-widgets.md` — example chart/stock widgets to propose
-- `references/domain-specialists.md` — specialist agents
-- `references/visual-prototype.md` — how to deliver the approval prototype
+- `references/demo-script-template.md` — short demo
 
 ## Companion skill
 
-Use together with `safe-multi-agent-github-dev` for safe GitHub operations.
+Use together with [safe-multi-agent-github-dev](https://github.com/Karoongh/safe-multi-agent-github-dev-skill) for multi-agent critique and safe GitHub operations.
 
 ## How to edit
 
 Open `SKILL.md` for core rules.
-Put catalogs and examples in `references/`. Never treat those catalogs as silent defaults.
+Put catalogs and procedures in `references/`. Never treat catalogs as silent defaults.
+
+## Changelog (high level)
+
+- **2026-10-04** — Capability Inventory Gate; integration completeness checklist; Mobile Acceptance Gate; clinic/treatment specialist; ordered pipeline; Completeness includes Keep set; decision log rule
